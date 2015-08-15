@@ -1,0 +1,25 @@
+
+public class Employee extends Person {
+
+	double daySalary;
+	
+	void Employee(){
+		
+		this.name = name;
+		this.age = age;
+		this.isMan= isMan;
+		this.daySalary=daySalary;
+		
+		
+		int calculateOverTime;double hours;{
+			
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,22 @@
+
+public class Person {
+
+		
+		String name;
+		int age;
+		boolean isMan;
+		
+		Person(){
+			this.name="Ivan";
+			this.age=25;
+			this.isMan = true;
+			
+		}
+		
+		
+		
+
+	}
+
+	
+

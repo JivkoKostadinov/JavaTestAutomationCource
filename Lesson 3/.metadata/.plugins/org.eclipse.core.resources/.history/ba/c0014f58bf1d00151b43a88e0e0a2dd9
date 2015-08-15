@@ -1,0 +1,33 @@
+
+public class Computer {
+	
+	int year;
+	int price;
+	int hardDiskMemory;
+	double freeMemory;
+	boolean isNoteBook;
+	String operationSystem;
+	
+	
+	 void changeOperationSystem(String newOperationSystem){
+		 
+		 operationSystem = newOperationSystem;
+	 
+	 }
+	
+	
+	 void useMemory(double memory){
+		 
+		 if (freeMemory < 0) {
+			
+			 freeMemory -= freeMemory - memory;
+		}else if (freeMemory > 0 ) {
+			
+			System.out.println("Not enough free memory!");
+			
+		}
+		 
+	 }
+	
+	
+}

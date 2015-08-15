@@ -1,0 +1,24 @@
+
+public class Person {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String name;
+		int age;
+		boolean isMan;
+		
+		Person(){
+			this.name="Ivan";
+			this.age=25;
+			this.isMan = true;
+			
+		}
+		
+		
+		
+
+	}
+
+	
+}

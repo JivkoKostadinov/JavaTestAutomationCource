@@ -1,0 +1,29 @@
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class Problem4 {
+
+	public static void main(String[] args) {
+		
+		
+		ArrayList<Integer> euroList = new ArrayList<Integer>();
+		
+		for (int i = 0; i < 10; i++) {
+			euroList.add(i);
+			
+		}
+		Collections.reverse(euroList);
+		
+		System.out.println(euroList);
+		 
+		 
+				 
+		 
+		 
+		 
+		// TODO Auto-generated method stub
+
+	}
+
+}

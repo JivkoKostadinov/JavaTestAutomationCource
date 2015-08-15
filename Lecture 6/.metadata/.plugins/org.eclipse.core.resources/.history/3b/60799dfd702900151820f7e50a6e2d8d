@@ -1,0 +1,35 @@
+package Lecture7;
+
+import java.util.Scanner;
+
+public class Problem8 {
+
+	public static void main(String[] args) {
+		
+		      //read from input
+				Scanner sc = new Scanner(System.in);
+				System.out.println("Enter size of the array :");
+				int number = sc.nextInt();
+				System.out.println("Enter value of the element of the array :");
+				
+				//add input number in to array
+				int [] arrayNumber = new int[number];
+				
+				for (int i = 0; i < arrayNumber.length; i++) {	
+					
+					arrayNumber[i] = sc.nextInt();
+					
+				}
+		
+				
+				
+				
+				
+				
+				
+				
+				
+
+	}
+
+}

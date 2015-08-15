@@ -1,0 +1,29 @@
+
+
+public class Person {
+
+		
+		String name;
+		int age;
+		boolean isMan;
+		
+		Person(){
+			this.name=name;
+			this.age=age;
+			this.isMan = isMan;
+			
+		}
+		
+		void showPersonInfo(){
+			
+			System.out.println(this.name);
+			System.out.println(this.age);
+			System.out.println(this.isMan);
+			
+			
+			
+			
+		}
+		
+
+	}

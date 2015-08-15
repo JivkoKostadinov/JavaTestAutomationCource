@@ -1,0 +1,39 @@
+package Lecture7;
+
+import java.util.Scanner;
+
+public class Problem2 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Please size of the array : ");
+		Integer number = sc.nextInt();
+		
+		System.out.println("Please enter half even numbers : ");
+		
+		//add input number in to array
+		int [] arrayNumber = new int[number];
+		
+		for (int i = 0; i <= arrayNumber.length / 2; i++) {	
+			
+			arrayNumber[i] = sc.nextInt();
+			
+			
+		}
+		
+		System.arraycopy(arrayNumber, arrayNumber.length /2, arrayNumber, arrayNumber.length /2, arrayNumber.length);     
+		
+		
+		System.out.println(arrayNumber.toString());
+		
+		
+		
+		
+		
+		
+		// TODO Auto-generated method stub
+
+	}
+
+}

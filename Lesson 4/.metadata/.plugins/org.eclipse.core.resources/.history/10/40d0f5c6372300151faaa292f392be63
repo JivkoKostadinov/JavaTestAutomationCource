@@ -1,0 +1,52 @@
+package Problem2;
+
+
+
+public class StudentGroup {
+
+	String groupSubject;
+	int freePlaces;
+	String[] students;
+	int[] studentGrade;
+	
+	
+	StudentGroup(){
+		
+		this.students = new String[5];
+		this.freePlaces = 5;
+
+	}
+	
+	 StudentGroup(String subject){
+		 this();
+		 this.groupSubject= "IT";
+		 
+	 }
+	
+	
+	 void addStudent(Student s){
+		 for (int i = 0; i < students.length; i++) {
+			 if (this.groupSubject.equals(s.subject) && this.freePlaces > students.length) {
+				 if (this.freePlaces > 0) {
+				  students[i] = s.toString();
+				  i++;
+				  this.freePlaces--;
+				  
+				 }
+		 }
+		}
+		
+	 }
+	
+	 void emptyGroup() {
+		 
+		 this.students = new String[5];
+		 this.freePlaces = 5;
+		 
+	 }
+	
+	
+	 
+	 
+	 
+}

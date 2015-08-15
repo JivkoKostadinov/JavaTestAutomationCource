@@ -1,0 +1,58 @@
+
+public class Computer {
+	
+	int year;
+	double price;
+	double hardDiskMemory;
+	double freeMemory;
+	boolean isNoteBook;
+	String operationSystem;
+	
+	Computer(){
+		this.isNoteBook=false;
+		this.operationSystem= "Win XP";
+		
+	}
+	
+	Computer(int year, double price, double hardDiskMemory, double freeMemory){
+    
+		this();
+		this.year= year;
+		this.price= price;
+		this.hardDiskMemory=hardDiskMemory;
+		this.freeMemory=freeMemory;
+		
+	}
+	
+	Computer(int year, double price, boolean isNotebook,double hardDiskMemory, double freeMemory, String operationSystem){
+		this.year= year;
+		this.price= price;
+		this.isNoteBook=isNotebook;
+		this.hardDiskMemory=hardDiskMemory;
+		this.freeMemory=freeMemory;
+		this.operationSystem=operationSystem;
+		
+	}
+	
+	
+	double compare(Computer computer2){
+		
+		if (this.price > computer2.price) {
+			
+			return -1;
+			
+		}else if (this.price < computer2.price) {
+			return 1;
+			
+		}else{
+			
+			return 0;
+		}
+	}
+
+	
+	
+	 }
+	
+	
+

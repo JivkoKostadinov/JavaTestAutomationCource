@@ -1,0 +1,35 @@
+package Problem2;
+
+import java.util.ArrayList;
+
+public class StudentGroup {
+
+	String groupSubject;
+	int freePlaces;
+	String[] students;
+	
+	
+	StudentGroup(){
+		
+		this.students = new String[5];
+		this.freePlaces = 5;
+
+	}
+	
+	 StudentGroup(String subject){
+		 this();
+		 this.groupSubject= "IT";
+		 
+	 }
+	
+	
+	 void addStudent(Student s){
+		 
+		 
+		 
+	 }
+	
+	
+	
+	
+}

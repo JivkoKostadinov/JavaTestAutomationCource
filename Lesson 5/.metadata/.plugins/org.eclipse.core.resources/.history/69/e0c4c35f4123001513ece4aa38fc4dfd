@@ -1,0 +1,43 @@
+
+public class Employee extends Person {
+
+	double daySalary;
+	double dailySum;
+	
+	void Employee(){
+		
+		this.name = name;
+		this.age = age;
+		this.isMan = isMan;
+		this.daySalary = daySalary;
+		this.dailySum = dailySum;
+		
+	}
+		
+	double calculateOverTime(double hours){
+			
+			if (this.age > 18) {
+				
+				this.daySalary= 0;
+
+			}else if (hours > 8 ) {
+				
+				return this.daySalary;
+				
+			}else if (hours < 8 ) {
+				
+				double dailySum = daySalary / 8;
+
+			}
+			
+			return  dailySum * 1.5;
+			
+		}
+	
+	
+	
+	
+	
+	
+	
+}

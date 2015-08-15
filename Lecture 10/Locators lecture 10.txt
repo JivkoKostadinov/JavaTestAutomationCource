@@ -1,0 +1,24 @@
+Problem 1
+www.abv.bg
+first locator:  css=#astroContent .right
+second locator: //div[@id='astroContent']//div//a[text()="Месечен"]
+
+Problem 2
+life.dir.bg
+first locator: css=#topnav li:nth-child(4) > a > span
+second locator: //*[@id = 'topnav']//li[4]//span
+
+Problem 3
+www.zaminda.net
+first locator:  css=.navigation::nth-child(3) 
+second locator: //*[@class='bottom']//td[@class='navigation'][3]
+
+Problem 4
+www.dnevnik.bg
+first locator:  css=.topicOverflowHide .theme
+second locator: //*[@class='topicOverflowHide']//div[@class='theme']
+
+Problem 5
+http://www.vesti.bg/
+first locator:  css=.search-button
+second locator: //*[@class='search-button']

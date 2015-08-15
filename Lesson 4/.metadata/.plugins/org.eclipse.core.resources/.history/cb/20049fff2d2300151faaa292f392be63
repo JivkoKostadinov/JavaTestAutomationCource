@@ -1,0 +1,23 @@
+package Problem2;
+
+public class College {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Student Ivan;
+		Ivan = new Student();
+		
+		System.out.println(Ivan.grade);
+		
+		Ivan.grade = 6;
+		
+		System.out.println(Ivan.grade);
+		
+		
+	}
+
+
+}
+
+
